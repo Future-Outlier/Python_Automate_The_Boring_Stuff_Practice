@@ -1,0 +1,3 @@
+python searchpypi.py keywords
+example:
+python searchpypi.py boring stuff
