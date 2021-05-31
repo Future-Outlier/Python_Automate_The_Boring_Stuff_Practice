@@ -1,0 +1,4 @@
+@python.exe D:\Python\Master_Python\Python_Automate_the_Boring_Stuff_with_Python\mclip.py %*
+@pause
+
+// the books write py.exe but actually the answer is python.exe
