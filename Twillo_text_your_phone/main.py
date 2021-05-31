@@ -5,11 +5,11 @@
 # https://www.twilio.com/console todo left can get informations we need.
 '''
 from twilio.rest import Client
-accountSID = 'AC58188c049628a3c82cf429a05558bd83'
-authToken = "b4d4195cf24d9ab9b0a83d663ac8975a"
+accountSID = 'accountSID'
+authToken = "authToken"
 twilioCli = Client('accountSID, authToken)
-myCellPhone = '+886921965321
-myTwilioNumber = '+12166090979'
+myCellPhone = 'PhoneNumber'
+myTwilioNumber = 'TwilioPhoneNumber'
 message = twilioCli.messages.create(body="今天也要好好生活喔", from_ = myTwilioNumber, to=myCellPhone)
 '''
 
